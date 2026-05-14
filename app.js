@@ -48,7 +48,7 @@ app.use(
     credentials: true,
     origin: [
       'http://localhost:3000',
-      'https://calling-demo-backend.onrender.com'
+      'https://bharat-basalanalytics-calling-demo-beta.vercel.app/'
     ]
   })
 )
@@ -59,7 +59,7 @@ app.options(
     credentials: true,
     origin: [
       'http://localhost:3000',
-      'https://calling-demo-backend.onrender.com'
+      'https://bharat-basalanalytics-calling-demo-beta.vercel.app'
     ]
   })
 )
