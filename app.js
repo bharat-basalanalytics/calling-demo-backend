@@ -47,7 +47,8 @@ app.use(
   cors({
     credentials: true,
     origin: [
-      'http://localhost:3000'
+      'http://localhost:3000',
+      'https://calling-demo-backend.onrender.com'
     ]
   })
 )
@@ -57,7 +58,8 @@ app.options(
   cors({
     credentials: true,
     origin: [
-      'http://localhost:3000'
+      'http://localhost:3000',
+      'https://calling-demo-backend.onrender.com'
     ]
   })
 )
