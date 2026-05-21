@@ -48,7 +48,9 @@ app.use(
     credentials: true,
     origin: [
       'http://localhost:3000',
-      'https://bharat-basalanalytics-calling-demo-beta.vercel.app'
+      'https://bharat-basalanalytics-calling-demo-beta.vercel.app',
+      'https://voiceai-demo-beta-vimware.vercel.app'
+
     ]
   })
 )
@@ -59,7 +61,8 @@ app.options(
     credentials: true,
     origin: [
       'http://localhost:3000',
-      'https://bharat-basalanalytics-calling-demo-beta.vercel.app'
+      'https://bharat-basalanalytics-calling-demo-beta.vercel.app',
+      'https://voiceai-demo-beta-vimware.vercel.app'
     ]
   })
 )
